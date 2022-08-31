@@ -18,7 +18,7 @@ export default function Item(props) {
 
   
   function hayStock(stock){
-    if(stock >= 0) {
+    if(stock > 0) {
     return stock
   
     } else { 
